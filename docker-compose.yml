@@ -1,0 +1,9 @@
+version: '2.3'
+
+services:
+  thankspage:
+    build: ./
+    image: thanks:latest
+    ports: 
+      - "1380:80"
+    restart: always
